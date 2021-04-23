@@ -27,5 +27,11 @@ npm install react-icons --save
 
 ver documentacion en: https://www.npmjs.com/package/react-icons
 
+ 
+pasos para el deployment desde consola de vscode: 
+
+$ heroku create -b https://github.com/mars/create-react-app-buildpack.git
+
+luego, te crea un repositorio en heroku, hay que hacer git add y git push heroku
 
 Made with a lots of 💖 
