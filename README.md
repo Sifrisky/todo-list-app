@@ -1,7 +1,7 @@
 
 # TODO-LIST APP!!
 
-see deployment [gradient-buttons](url)
+see deployment [todoList-app](url)
 
 Made with REACT-APP and REACT-ICONS. 
 
@@ -9,15 +9,19 @@ Hope you like! 🙌
 
 # Preview 
 
-![](docs/screenshot.jpeg)
+![](docs/screenshot1.png)
+![](docs/screenshot2.png)
 
 Creacion de la App e Instalacion de dependencias.
 
 ```
-//para crear app.
+Crear app:
+
 npx create-react-app 
 
-//Para inconos
+
+iconos:
+
 npm install react-icons --save 
 ```
 
