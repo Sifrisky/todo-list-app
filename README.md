@@ -29,9 +29,11 @@ ver documentacion en: https://www.npmjs.com/package/react-icons
 
  
 pasos para el deployment desde consola de vscode: 
-
-$ heroku create -b https://github.com/mars/create-react-app-buildpack.git
-
-luego, te crea un repositorio en heroku, hay que hacer git add y git push heroku
+1. Descarga heroku cli.
+2. verifica que tienes instalado heroku con: heroku --help
+3. Crealo con el sigte enlace: $ heroku create -b https://github.com/mars/create-react-app-buildpack.git
+4. git add .
+5. git commit -m "loquesea"
+6. luego, git push heroku. (nota: Si tienes problemas con deploy add los cambios nuevamente y utiliza para comitear: $ git commit -am "make it better")
 
 Made with a lots of 💖 
